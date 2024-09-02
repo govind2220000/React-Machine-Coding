@@ -1,0 +1,22 @@
+[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --heading-color: #e90a0a;
+}
+[data-theme="Dark"] {
+  --bg-color: #333333;
+  --text-color: #3100e0;
+  --heading-color: #3503eb;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0 30px;
+}
+
+h1 {
+  color: var(--heading-color);
+}
